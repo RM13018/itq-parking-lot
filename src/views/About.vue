@@ -1,5 +1,20 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <div class = "container">
+    <Parking/>
+    </div>
+    <div>
+    <Parking2/>
+  </div>
   </div>
 </template>
+
+<script>
+import Parking from '@/components/Parking.vue'
+export default {
+  name: 'about',
+  components:{
+    Parking
+  }
+}
+</script>
